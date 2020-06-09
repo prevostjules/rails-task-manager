@@ -12,5 +12,8 @@ Task.delete_all
 puts "Add tasks"
 Task.create(title: "test", details:"details test")
 Task.create(title: "test2", details:"details test2")
+Task.create(title: "test3", details:"details test3", completed: true)
+Task.create title: 'Laundry', details: 'Do not mix colors!'
+Task.create title: 'Studying', details: 'A lot of flashcards to do', completed: true
 
 puts "end"
